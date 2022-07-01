@@ -11,6 +11,10 @@
 </head>
 
 <body>
+
+<?php
+    include("contact.php");
+?>
    
 
     <!-- Header -->
