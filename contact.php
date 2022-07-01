@@ -23,11 +23,14 @@
 
 
 <?php
+$message = "ce message vien du site clubequus hammamet 
+mail de la personne : " . $_POST["email"] ."
+sont message : " . $_POST["message"];
 
 if(isset($_POST["message"]))
 {
 
-$result = mail("selim03gaaloul@gmail.com",$_POST["sujet"],$_POST["message"],"From:contact@clubequus.com" . "\r\n" . "Reply-to:" . $_POST["email"]);
+$result = mail("selim03gaaloul@gmail.com",$_POST["sujet"],$message,"From:contact@clubequus.com");
 if($result)
 {
     echo "<p> mail envoyer </p>" ;
