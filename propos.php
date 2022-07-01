@@ -257,7 +257,7 @@
             if(isset($_POST["message"]))
             {
 
-            $result = mail("selim03gaaloul@gmail.com",$_POST["sujet"],$message,"From:contact@clubequus-hammamet.com");
+            $result = mail("selim03gaaloul@gmail.com",$_POST["sujet"],$message,"");
             if($result)
             {
                 echo "<p> mail envoyer </p>" ;
