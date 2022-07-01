@@ -10,7 +10,7 @@
 
 <?php
 
-$result = mail("selim03gaaloul@gmail.com","essai mail","coucou les amis","cpntact@clubequus.com");
+$result = mail("selim03gaaloul@gmail.com","essai mail","coucou les amis","From:contact@clubequus.com");
 if($result)
 {
     echo "<p> mail envoyer </p>" ;
