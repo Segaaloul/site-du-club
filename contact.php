@@ -7,14 +7,36 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Contactez-nous</h1>
+    <h3>Pour Toute demande, remplissez le formulaire ci-dessous</h3>
+
+    <form method="post">
+        <label > Email</label>
+        <input type="email" name="email" required >
+        <label>Sujet</label>
+        <input type="text" name="sujet" required>
+        <textarea name="message" required></textarea>
+        <input type="submit" value="Envoyer le message"></input>
+
+
+    </form>
+
 
 <?php
+
+if(isset($_POST["message"]))
+{
 
 $result = mail("selim03gaaloul@gmail.com","essai mail","coucou les amis","From:contact@clubequus.com");
 if($result)
 {
     echo "<p> mail envoyer </p>" ;
 }
+
+
+}
+
+
 
 ?>
 
