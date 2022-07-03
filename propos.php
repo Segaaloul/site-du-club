@@ -238,7 +238,7 @@
          <h3>Pour Toute demande, remplissez le formulaire ci-dessous</h3>
 
             <form method="post">
-                <label > Email</label>
+                <label >Email</label>
                 <input type="email" name="email" required >
                 <label>Sujet</label>
                 <input type="text" name="sujet" required>
