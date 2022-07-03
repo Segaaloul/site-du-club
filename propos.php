@@ -49,7 +49,7 @@
         <meta charset="UTF-8">
         <title>A Propos</title>
     
-        <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
     </head>
     
     <body>
